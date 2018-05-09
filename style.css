@@ -8,10 +8,12 @@ img {
     margin : 10px;
 }
 
-section {
+.mainHeader {
     width :1200px;
     height : 80px;
     background-color : #ffffff;
+    border-style : solid;
+    border-color : #cccccc;
 }
 
 h1 {
@@ -22,22 +24,30 @@ h1 {
     float : left;
     font-family : Georgia, 'Times New Roman', Times, serif;
     padding : 10px 0px;
-    margin : 25px 0px;
+    margin : 20px 120px;
+
 }
 
-.navbar {
-    color : gray;
+#navigation {
+    padding : 25px;
+    margin : 20px 120px;
+}
+#navigation ul {
+    margin : 0px;
+    padding : 0px;
     float : right;
-    text-decoration: none;
-    text-align : center;
-    padding : 35px 15px;
+
+}
+#navigation ul li  {
+    padding : 0px;
+    margin : 0px;
+    list-style-type: none;
+    display : inline;
 }
 
-
-.about, .portfolio {
-    padding-right : 10px;
+#navigation li:not(:first-child):before {
+    content: " | ";
 }
-
 
 
 #aboutMeText {
