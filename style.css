@@ -158,3 +158,16 @@ footer {
     width : 40px;
     margin-top : 10px;
 }
+
+#hangmancontent {
+    position : relative;
+    text-align : center;
+    color : white;
+}
+
+
+#hangman {
+    background-color : #4aaaa5;
+    display : inline;
+    position : absolute;
+}
